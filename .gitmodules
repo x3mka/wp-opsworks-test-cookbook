@@ -1,0 +1,6 @@
+[submodule "rc_mon"]
+	path = rc_mon
+	url = https://github.com/hw-cookbooks/rc_mon.git
+[submodule "s3fs-fuse"]
+	path = s3fs-fuse
+	url = https://github.com/hw-cookbooks/s3fs-fuse.git
