@@ -57,6 +57,7 @@ bash "compile_and_install_s3fs_fuse" do
   code <<-EOH
     tar -xzf s3fs-fuse-#{s3fs_version}.tar.gz
     cd s3fs-fuse-#{s3fs_version}
+    ./autogen.sh
     #{'export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/lib64/pkgconfig' if node.platform_family == 'rhel'}
     ./configure --prefix=/usr/local
     make && make install
