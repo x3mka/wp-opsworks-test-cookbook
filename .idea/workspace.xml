@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2a734c-184c-482e-a3a4-8745c55c5a0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/recipes/configure.rb" afterPath="$PROJECT_DIR$/wordpress/recipes/configure.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s3fs-fuse/recipes/install.rb" afterPath="$PROJECT_DIR$/s3fs-fuse/recipes/install.rb" />
     </list>
     <ignored path="wp-opsworks-test-cookbook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/s3fs-fuse/recipes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.053854275">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/s3fs-fuse/recipes/install.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2998944">
+              <caret line="47" column="77" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -54,6 +64,7 @@
         <option value="$PROJECT_DIR$/Berksfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/s3fs-fuse/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/s3fs-fuse/recipes/install.rb" />
       </list>
     </option>
   </component>
@@ -215,8 +226,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/s3fs-fuse/recipes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.053854275">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3fs-fuse/recipes/install.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2998944">
+          <caret line="47" column="77" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
           <folding />
         </state>
       </provider>
